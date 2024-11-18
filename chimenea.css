@@ -21,13 +21,6 @@ body {
     height: 400px;
     margin-top: 110px;
 }
-.fireplace ul.top li {
-    list-style: none;
-    position: absolute;
-    height: 5px;
-    border-radius: 10px;
-    background-color: #a96033;
-}
 .wrapper {position: relative;} 
 .wrapper br {display:none;} 
 .chimenea{background: var(--color-background); width: 677px; height: 700px; position: absolute; top: -105px; z-index: -1;}
