@@ -245,11 +245,11 @@ body {
       }
       li:nth-child(3) {
         width: 60px; height: 60px;
-        border: 5px solid darken(var(--color-crown), 15%);
+        border: 5px solid var(--color-crown);
       }
       li:nth-child(4) {
         width: 65px; height: 65px;
-        border: 5px solid lighten(var(--color-crown), 5%);
+        border: 5px solid var(--color-crown);
       }
       li:nth-child(5) {
         width: 70px; height: 70px;
@@ -257,7 +257,7 @@ body {
       }
       li:nth-child(6) {
         width: 85px; height: 85px;
-        border: 5px solid darken(var(--color-crown), 15%);
+        border: 5px solid var(--color-crown);
       }
       li:nth-child(7) {
         width: 90px; height: 90px;
@@ -265,7 +265,7 @@ body {
       }
       li:nth-child(8) {
         width: 105px; height: 105px;
-        border: 10px solid darken(var(--color-crown), 5%);
+        border: 10px solid var(--color-crown);
       }
       li:nth-child(9) {
         left: 50px; top: -35px;
