@@ -21,7 +21,19 @@ body {
     height: 400px;
     margin-top: 110px;
 }
-.content ul, .content ol {all: unset;}
+.wrapper {position: relative;} 
+.wrapper br {display:none;} 
+.chimenea{background: var(--483741); width: 677px; height: 700px; position: absolute; top: -105px; z-index: -1;}
+.content ul, .content ol {
+display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;  
+}
 .content li {all: unset;}
   ul.wall {
     position: absolute;
