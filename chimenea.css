@@ -23,7 +23,7 @@ body {
 }
 .wrapper {position: relative;} 
 .wrapper br {display:none;} 
-.chimenea{background: var(--483741); width: 677px; height: 700px; position: absolute; top: -105px; z-index: -1;}
+.chimenea{background: var(--color-background); width: 677px; height: 700px; position: absolute; top: -105px; z-index: -1;}
 .content ul, .content ol {
 display: block;
     list-style-type: disc;
