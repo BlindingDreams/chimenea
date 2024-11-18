@@ -21,12 +21,7 @@ body {
     height: 400px;
     margin-top: 110px;
 }
-.content ul, .content ol {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    padding-inline-start: 40px;
-}
+.content ul, .content ol {all: unset;}
 .content li {all: unset;}
   ul.wall {
     position: absolute;
