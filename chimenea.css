@@ -13,6 +13,7 @@ body {
   --calcetin2: #7bb218;
   --calcetin3: #fea604;
   --corona: #7db111;
+  --suelo-chimenea: #8e3f30;
 
   --color-font: #333333;
   }
@@ -667,7 +668,7 @@ display: block;
       left: -20px;
       width: 480px;
       height: 60px;
-      background-color: #8e3f30;
+      background-color: var(--suelo-chimenea);
       &::before {
         content: "";
         position: absolute;
