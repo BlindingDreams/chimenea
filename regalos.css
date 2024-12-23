@@ -1,0 +1,109 @@
+.psev-icon i {
+    font-size: 115px !important;
+    top: 0px;
+}
+
+.psev-bg {
+    width: 657px !important;
+}
+
+.regalos {
+    height: 223px;
+    display: flex;
+    gap: 5px;
+    padding: 50px;
+    background: radial-gradient(circle, var(--gpgradient) 0%, var(--grupo) 100%);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.regalo {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--grupo);
+    animation: glow 2s infinite;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px #ffa000;
+        border-radius: 30%;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #ffd786;
+        border-radius: 20%;
+    }
+}
+
+.regalo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--gpgradient);
+}
+
+.regalo strong img {
+    z-index: 2;
+    top: 15px;
+    right: 12px;
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.regalo strong:hover img {
+    opacity: 1;
+}
+
+.regalo i {
+    font-size: 120px;
+    color: #888;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.regalo:hover i {
+    opacity: 0;
+}
+
+.emberss {
+    position: absolute;
+}
+
+.emberss img {
+    mix-blend-mode: screen;
+    width: 575px;
+    z-index: 0;
+}
+
+.regalo strong {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+
+.fregalo {
+    font-family: Ms Madi;
+    color: #ffe0bf;
+    font-size: 28px;
+    line-height: 28px;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
