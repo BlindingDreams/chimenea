@@ -1,0 +1,88 @@
+.psev-stl .psev-titb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--fondo2);
+    border: 1px solid var(--borde);
+    position: relative;
+    overflow: hidden;
+    height: 220px;
+    overflow: inherit !important;
+}
+
+.psev-stl .psev-titb img {
+    object-fit: cover;
+    width: 657px;
+    height: 220px;
+}
+
+.psev-stl .psev-icon {
+    background: var(--fondo12);
+    padding: 10px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--borde);
+    bottom: -41px;
+    z-index: 2;
+}
+
+.psev-stl .psev-icon i {
+    opacity: 1 !important;
+    font-size: 35px !important;
+}
+
+.psev-stl .psev-datos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.psev-stl .psev-tit-txt2b {
+    background-image: none !important;
+    color: var(--colortxt) !important;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 5px solid var(--fondo9);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 26px;
+}
+
+.psev-stl .psev-tit-txt3 {
+    color: var(--colortxt);
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+.psev-stl .psev-tit-txt {
+    background: transparent !important;
+    border: none !important;
+}
+
+.psev-stl .psev-contbg {
+    border: 1px solid var(--borde);
+}
+
+.psev-stl .psev-acts-txt3 {
+    border: 1px solid var(--borde);
+}
+
+.psev-stl strong {
+    background: linear-gradient(90deg, var(--grupo) 0%, var(--gpgradient) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    padding: 0px 1px 0px 1px;
+    color: #424242;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.psev-stl .psev-bg u i {
+    color: #fff;
+}
